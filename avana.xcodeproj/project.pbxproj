@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EF6F0C3074C5A054C3DFC25 /* Pods_avanaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB12305EC16472147C04BB4 /* Pods_avanaTests.framework */; };
 		7173776C2600F36200E6B567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7173776B2600F36200E6B567 /* AppDelegate.swift */; };
 		7173776E2600F36200E6B567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7173776D2600F36200E6B567 /* SceneDelegate.swift */; };
 		717377702600F36200E6B567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7173776F2600F36200E6B567 /* ViewController.swift */; };
@@ -15,6 +16,43 @@
 		717377782600F36500E6B567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717377762600F36500E6B567 /* LaunchScreen.storyboard */; };
 		717377832600F36500E6B567 /* avanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377822600F36500E6B567 /* avanaTests.swift */; };
 		7173778E2600F36500E6B567 /* avanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7173778D2600F36500E6B567 /* avanaUITests.swift */; };
+		717377AF2600F60700E6B567 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377AE2600F60700E6B567 /* APIError.swift */; };
+		717377B72600F62F00E6B567 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377B62600F62F00E6B567 /* APIService.swift */; };
+		717377BC2600F87000E6B567 /* TargetType+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377BB2600F87000E6B567 /* TargetType+Base.swift */; };
+		717377C22600F99F00E6B567 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377C12600F99F00E6B567 /* ProductService.swift */; };
+		717377C72600F9B100E6B567 /* ProductResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377C62600F9B100E6B567 /* ProductResource.swift */; };
+		717377CC2600FBBF00E6B567 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377CB2600FBBF00E6B567 /* Product.swift */; };
+		717377D62600FC8A00E6B567 /* ProductListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377D12600FC8A00E6B567 /* ProductListRouter.swift */; };
+		717377D72600FC8A00E6B567 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377D22600FC8A00E6B567 /* ProductListViewController.swift */; };
+		717377D82600FC8A00E6B567 /* ProductListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377D32600FC8A00E6B567 /* ProductListBuilder.swift */; };
+		717377D92600FC8A00E6B567 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377D42600FC8A00E6B567 /* ProductListViewModel.swift */; };
+		717377DA2600FC8A00E6B567 /* ProductListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717377D52600FC8A00E6B567 /* ProductListViewController.xib */; };
+		717377E02601030F00E6B567 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377DF2601030F00E6B567 /* ProductViewModel.swift */; };
+		717377E6260103B000E6B567 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377E4260103B000E6B567 /* ProductTableViewCell.swift */; };
+		717377E7260103B000E6B567 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717377E5260103B000E6B567 /* ProductTableViewCell.xib */; };
+		717377ED26010A2400E6B567 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717377EC26010A2400E6B567 /* UIImageView+Extensions.swift */; };
+		71A536712601F4B80048BCAC /* ProductDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A5366C2601F4B80048BCAC /* ProductDetailRouter.swift */; };
+		71A536722601F4B80048BCAC /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A5366D2601F4B80048BCAC /* ProductDetailViewController.swift */; };
+		71A536732601F4B80048BCAC /* ProductDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A5366E2601F4B80048BCAC /* ProductDetailBuilder.swift */; };
+		71A536742601F4B80048BCAC /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A5366F2601F4B80048BCAC /* ProductDetailViewModel.swift */; };
+		71A536752601F4B80048BCAC /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A536702601F4B80048BCAC /* ProductDetailViewController.xib */; };
+		71A536BC2602285B0048BCAC /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536B72602285B0048BCAC /* LoginRouter.swift */; };
+		71A536BD2602285B0048BCAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536B82602285B0048BCAC /* LoginViewController.swift */; };
+		71A536BE2602285B0048BCAC /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536B92602285B0048BCAC /* LoginBuilder.swift */; };
+		71A536BF2602285B0048BCAC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536BA2602285B0048BCAC /* LoginViewModel.swift */; };
+		71A536C02602285B0048BCAC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A536BB2602285B0048BCAC /* LoginViewController.xib */; };
+		71A536C72602349A0048BCAC /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536C62602349A0048BCAC /* LoginService.swift */; };
+		71A536CF26023F990048BCAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536CE26023F980048BCAC /* User.swift */; };
+		71A536D5260240370048BCAC /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536D4260240370048BCAC /* SessionManager.swift */; };
+		71A536DF260244970048BCAC /* CheckoutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536DA260244970048BCAC /* CheckoutRouter.swift */; };
+		71A536E0260244970048BCAC /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536DB260244970048BCAC /* CheckoutViewController.swift */; };
+		71A536E1260244970048BCAC /* CheckoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536DC260244970048BCAC /* CheckoutBuilder.swift */; };
+		71A536E2260244970048BCAC /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536DD260244970048BCAC /* CheckoutViewModel.swift */; };
+		71A536E3260244970048BCAC /* CheckoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A536DE260244970048BCAC /* CheckoutViewController.xib */; };
+		71A536EA26024C4D0048BCAC /* PaymentProofTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A536E826024C4D0048BCAC /* PaymentProofTableViewCell.swift */; };
+		71A536EB26024C4D0048BCAC /* PaymentProofTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A536E926024C4D0048BCAC /* PaymentProofTableViewCell.xib */; };
+		95EFC5786138D188F8335ED6 /* Pods_avana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4190CED728BC5B69F7E330F /* Pods_avana.framework */; };
+		A3F83E1F4BA30ECCCAC3C96D /* Pods_avana_avanaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7565E2300955568117E1D06 /* Pods_avana_avanaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +73,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17E539E492CB85BC1732EEB7 /* Pods-avana-avanaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avana-avanaUITests.release.xcconfig"; path = "Target Support Files/Pods-avana-avanaUITests/Pods-avana-avanaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1980D1C950AFD9F7FC2C6628 /* Pods-avanaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avanaTests.debug.xcconfig"; path = "Target Support Files/Pods-avanaTests/Pods-avanaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4404564F13872F600510B382 /* Pods-avanaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avanaTests.release.xcconfig"; path = "Target Support Files/Pods-avanaTests/Pods-avanaTests.release.xcconfig"; sourceTree = "<group>"; };
 		717377682600F36200E6B567 /* avana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7173776B2600F36200E6B567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7173776D2600F36200E6B567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +90,48 @@
 		717377892600F36500E6B567 /* avanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7173778D2600F36500E6B567 /* avanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avanaUITests.swift; sourceTree = "<group>"; };
 		7173778F2600F36500E6B567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717377AE2600F60700E6B567 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		717377B62600F62F00E6B567 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		717377BB2600F87000E6B567 /* TargetType+Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TargetType+Base.swift"; sourceTree = "<group>"; };
+		717377C12600F99F00E6B567 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		717377C62600F9B100E6B567 /* ProductResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResource.swift; sourceTree = "<group>"; };
+		717377CB2600FBBF00E6B567 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		717377D12600FC8A00E6B567 /* ProductListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRouter.swift; sourceTree = "<group>"; };
+		717377D22600FC8A00E6B567 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		717377D32600FC8A00E6B567 /* ProductListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListBuilder.swift; sourceTree = "<group>"; };
+		717377D42600FC8A00E6B567 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		717377D52600FC8A00E6B567 /* ProductListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListViewController.xib; sourceTree = "<group>"; };
+		717377DF2601030F00E6B567 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		717377E4260103B000E6B567 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		717377E5260103B000E6B567 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		717377EC26010A2400E6B567 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		71A5366C2601F4B80048BCAC /* ProductDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailRouter.swift; sourceTree = "<group>"; };
+		71A5366D2601F4B80048BCAC /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		71A5366E2601F4B80048BCAC /* ProductDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailBuilder.swift; sourceTree = "<group>"; };
+		71A5366F2601F4B80048BCAC /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		71A536702601F4B80048BCAC /* ProductDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
+		71A536B72602285B0048BCAC /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		71A536B82602285B0048BCAC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		71A536B92602285B0048BCAC /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		71A536BA2602285B0048BCAC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		71A536BB2602285B0048BCAC /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		71A536C62602349A0048BCAC /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		71A536CE26023F980048BCAC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		71A536D4260240370048BCAC /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		71A536DA260244970048BCAC /* CheckoutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutRouter.swift; sourceTree = "<group>"; };
+		71A536DB260244970048BCAC /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		71A536DC260244970048BCAC /* CheckoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutBuilder.swift; sourceTree = "<group>"; };
+		71A536DD260244970048BCAC /* CheckoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModel.swift; sourceTree = "<group>"; };
+		71A536DE260244970048BCAC /* CheckoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutViewController.xib; sourceTree = "<group>"; };
+		71A536E826024C4D0048BCAC /* PaymentProofTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentProofTableViewCell.swift; sourceTree = "<group>"; };
+		71A536E926024C4D0048BCAC /* PaymentProofTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentProofTableViewCell.xib; sourceTree = "<group>"; };
+		71A536F2260251800048BCAC /* avana.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = avana.entitlements; sourceTree = "<group>"; };
+		9C850C94494B114C34E2B7E2 /* Pods-avana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avana.debug.xcconfig"; path = "Target Support Files/Pods-avana/Pods-avana.debug.xcconfig"; sourceTree = "<group>"; };
+		B630CAC885886C7F03A25CAE /* Pods-avana-avanaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avana-avanaUITests.debug.xcconfig"; path = "Target Support Files/Pods-avana-avanaUITests/Pods-avana-avanaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7565E2300955568117E1D06 /* Pods_avana_avanaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_avana_avanaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB12305EC16472147C04BB4 /* Pods_avanaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_avanaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4190CED728BC5B69F7E330F /* Pods_avana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_avana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA11209B995158FAB1C8EFE2 /* Pods-avana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avana.release.xcconfig"; path = "Target Support Files/Pods-avana/Pods-avana.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EFC5786138D188F8335ED6 /* Pods_avana.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF6F0C3074C5A054C3DFC25 /* Pods_avanaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F83E1F4BA30ECCCAC3C96D /* Pods_avana_avanaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +169,8 @@
 				717377812600F36500E6B567 /* avanaTests */,
 				7173778C2600F36500E6B567 /* avanaUITests */,
 				717377692600F36200E6B567 /* Products */,
+				D81898132D5BFD0D4A3BD77B /* Pods */,
+				A4417B39731594A5D2A0AE45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +187,19 @@
 		7173776A2600F36200E6B567 /* avana */ = {
 			isa = PBXGroup;
 			children = (
+				71A536F2260251800048BCAC /* avana.entitlements */,
+				717377792600F36500E6B567 /* Info.plist */,
 				7173776B2600F36200E6B567 /* AppDelegate.swift */,
 				7173776D2600F36200E6B567 /* SceneDelegate.swift */,
 				7173776F2600F36200E6B567 /* ViewController.swift */,
-				717377712600F36200E6B567 /* Main.storyboard */,
 				717377742600F36500E6B567 /* Assets.xcassets */,
 				717377762600F36500E6B567 /* LaunchScreen.storyboard */,
-				717377792600F36500E6B567 /* Info.plist */,
+				717377712600F36200E6B567 /* Main.storyboard */,
+				717377EB26010A1100E6B567 /* Extensions */,
+				71A536D32602402D0048BCAC /* Manager */,
+				717377AC2600F5CC00E6B567 /* Models */,
+				717377AA2600F5B400E6B567 /* Modules */,
+				717377AB2600F5C000E6B567 /* Networking */,
 			);
 			path = avana;
 			sourceTree = "<group>";
@@ -128,6 +222,179 @@
 			path = avanaUITests;
 			sourceTree = "<group>";
 		};
+		717377AA2600F5B400E6B567 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				71A536D9260244670048BCAC /* Checkout */,
+				71A536B6260228460048BCAC /* Login */,
+				71A5366B2601F4840048BCAC /* ProductDetail */,
+				717377D02600FC6D00E6B567 /* ProductList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		717377AB2600F5C000E6B567 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				717377C02600F98D00E6B567 /* Services */,
+				717377AD2600F5DC00E6B567 /* Models */,
+				717377B62600F62F00E6B567 /* APIService.swift */,
+				717377BB2600F87000E6B567 /* TargetType+Base.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		717377AC2600F5CC00E6B567 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				717377CB2600FBBF00E6B567 /* Product.swift */,
+				71A536CE26023F980048BCAC /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		717377AD2600F5DC00E6B567 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				717377AE2600F60700E6B567 /* APIError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		717377C02600F98D00E6B567 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				71A536C5260234810048BCAC /* Login */,
+				71A536C42602347B0048BCAC /* Product */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		717377D02600FC6D00E6B567 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				717377DE2601000800E6B567 /* Cell */,
+				717377D12600FC8A00E6B567 /* ProductListRouter.swift */,
+				717377D22600FC8A00E6B567 /* ProductListViewController.swift */,
+				717377D32600FC8A00E6B567 /* ProductListBuilder.swift */,
+				717377D42600FC8A00E6B567 /* ProductListViewModel.swift */,
+				717377D52600FC8A00E6B567 /* ProductListViewController.xib */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		717377DE2601000800E6B567 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				717377DF2601030F00E6B567 /* ProductViewModel.swift */,
+				717377E4260103B000E6B567 /* ProductTableViewCell.swift */,
+				717377E5260103B000E6B567 /* ProductTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		717377EB26010A1100E6B567 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				717377EC26010A2400E6B567 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		71A5366B2601F4840048BCAC /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				71A5366C2601F4B80048BCAC /* ProductDetailRouter.swift */,
+				71A5366D2601F4B80048BCAC /* ProductDetailViewController.swift */,
+				71A5366E2601F4B80048BCAC /* ProductDetailBuilder.swift */,
+				71A5366F2601F4B80048BCAC /* ProductDetailViewModel.swift */,
+				71A536702601F4B80048BCAC /* ProductDetailViewController.xib */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		71A536B6260228460048BCAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				71A536B72602285B0048BCAC /* LoginRouter.swift */,
+				71A536B82602285B0048BCAC /* LoginViewController.swift */,
+				71A536B92602285B0048BCAC /* LoginBuilder.swift */,
+				71A536BA2602285B0048BCAC /* LoginViewModel.swift */,
+				71A536BB2602285B0048BCAC /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		71A536C42602347B0048BCAC /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				717377C12600F99F00E6B567 /* ProductService.swift */,
+				717377C62600F9B100E6B567 /* ProductResource.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		71A536C5260234810048BCAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				71A536C62602349A0048BCAC /* LoginService.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		71A536D32602402D0048BCAC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				71A536D4260240370048BCAC /* SessionManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		71A536D9260244670048BCAC /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				71A536E726024C240048BCAC /* Cell */,
+				71A536DA260244970048BCAC /* CheckoutRouter.swift */,
+				71A536DB260244970048BCAC /* CheckoutViewController.swift */,
+				71A536DC260244970048BCAC /* CheckoutBuilder.swift */,
+				71A536DD260244970048BCAC /* CheckoutViewModel.swift */,
+				71A536DE260244970048BCAC /* CheckoutViewController.xib */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		71A536E726024C240048BCAC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				71A536E826024C4D0048BCAC /* PaymentProofTableViewCell.swift */,
+				71A536E926024C4D0048BCAC /* PaymentProofTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A4417B39731594A5D2A0AE45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4190CED728BC5B69F7E330F /* Pods_avana.framework */,
+				B7565E2300955568117E1D06 /* Pods_avana_avanaUITests.framework */,
+				DEB12305EC16472147C04BB4 /* Pods_avanaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D81898132D5BFD0D4A3BD77B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C850C94494B114C34E2B7E2 /* Pods-avana.debug.xcconfig */,
+				EA11209B995158FAB1C8EFE2 /* Pods-avana.release.xcconfig */,
+				B630CAC885886C7F03A25CAE /* Pods-avana-avanaUITests.debug.xcconfig */,
+				17E539E492CB85BC1732EEB7 /* Pods-avana-avanaUITests.release.xcconfig */,
+				1980D1C950AFD9F7FC2C6628 /* Pods-avanaTests.debug.xcconfig */,
+				4404564F13872F600510B382 /* Pods-avanaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +402,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 717377922600F36500E6B567 /* Build configuration list for PBXNativeTarget "avana" */;
 			buildPhases = (
+				5D1064CA0EB3E3972F818425 /* [CP] Check Pods Manifest.lock */,
 				717377642600F36200E6B567 /* Sources */,
 				717377652600F36200E6B567 /* Frameworks */,
 				717377662600F36200E6B567 /* Resources */,
+				E19C805ADBA08A5F32FEC2B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +421,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 717377952600F36500E6B567 /* Build configuration list for PBXNativeTarget "avanaTests" */;
 			buildPhases = (
+				7BE21CAFF82B3A7D674AAD17 /* [CP] Check Pods Manifest.lock */,
 				7173777A2600F36500E6B567 /* Sources */,
 				7173777B2600F36500E6B567 /* Frameworks */,
 				7173777C2600F36500E6B567 /* Resources */,
@@ -170,9 +440,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 717377982600F36500E6B567 /* Build configuration list for PBXNativeTarget "avanaUITests" */;
 			buildPhases = (
+				70A43FFC4766463C5C1E1D41 /* [CP] Check Pods Manifest.lock */,
 				717377852600F36500E6B567 /* Sources */,
 				717377862600F36500E6B567 /* Frameworks */,
 				717377872600F36500E6B567 /* Resources */,
+				1FBE496EF455DCAB75B91B45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +503,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A536E3260244970048BCAC /* CheckoutViewController.xib in Resources */,
 				717377782600F36500E6B567 /* LaunchScreen.storyboard in Resources */,
 				717377752600F36500E6B567 /* Assets.xcassets in Resources */,
+				717377E7260103B000E6B567 /* ProductTableViewCell.xib in Resources */,
+				717377DA2600FC8A00E6B567 /* ProductListViewController.xib in Resources */,
 				717377732600F36200E6B567 /* Main.storyboard in Resources */,
+				71A536C02602285B0048BCAC /* LoginViewController.xib in Resources */,
+				71A536752601F4B80048BCAC /* ProductDetailViewController.xib in Resources */,
+				71A536EB26024C4D0048BCAC /* PaymentProofTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +531,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FBE496EF455DCAB75B91B45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-avana-avanaUITests/Pods-avana-avanaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-avana-avanaUITests/Pods-avana-avanaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-avana-avanaUITests/Pods-avana-avanaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1064CA0EB3E3972F818425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-avana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70A43FFC4766463C5C1E1D41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-avana-avanaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE21CAFF82B3A7D674AAD17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-avanaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E19C805ADBA08A5F32FEC2B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-avana/Pods-avana-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-avana/Pods-avana-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-avana/Pods-avana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		717377642600F36200E6B567 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A536CF26023F990048BCAC /* User.swift in Sources */,
+				71A536EA26024C4D0048BCAC /* PaymentProofTableViewCell.swift in Sources */,
+				717377E02601030F00E6B567 /* ProductViewModel.swift in Sources */,
+				71A536712601F4B80048BCAC /* ProductDetailRouter.swift in Sources */,
 				717377702600F36200E6B567 /* ViewController.swift in Sources */,
+				71A536742601F4B80048BCAC /* ProductDetailViewModel.swift in Sources */,
+				717377E6260103B000E6B567 /* ProductTableViewCell.swift in Sources */,
+				71A536DF260244970048BCAC /* CheckoutRouter.swift in Sources */,
+				71A536E1260244970048BCAC /* CheckoutBuilder.swift in Sources */,
+				71A536BC2602285B0048BCAC /* LoginRouter.swift in Sources */,
+				717377C72600F9B100E6B567 /* ProductResource.swift in Sources */,
+				717377CC2600FBBF00E6B567 /* Product.swift in Sources */,
+				717377B72600F62F00E6B567 /* APIService.swift in Sources */,
+				71A536E0260244970048BCAC /* CheckoutViewController.swift in Sources */,
+				717377D62600FC8A00E6B567 /* ProductListRouter.swift in Sources */,
+				71A536D5260240370048BCAC /* SessionManager.swift in Sources */,
+				71A536BD2602285B0048BCAC /* LoginViewController.swift in Sources */,
+				717377AF2600F60700E6B567 /* APIError.swift in Sources */,
+				717377BC2600F87000E6B567 /* TargetType+Base.swift in Sources */,
+				71A536732601F4B80048BCAC /* ProductDetailBuilder.swift in Sources */,
+				717377D92600FC8A00E6B567 /* ProductListViewModel.swift in Sources */,
+				71A536BE2602285B0048BCAC /* LoginBuilder.swift in Sources */,
+				71A536722601F4B80048BCAC /* ProductDetailViewController.swift in Sources */,
+				717377D82600FC8A00E6B567 /* ProductListBuilder.swift in Sources */,
+				71A536E2260244970048BCAC /* CheckoutViewModel.swift in Sources */,
 				7173776C2600F36200E6B567 /* AppDelegate.swift in Sources */,
+				717377C22600F99F00E6B567 /* ProductService.swift in Sources */,
+				71A536BF2602285B0048BCAC /* LoginViewModel.swift in Sources */,
+				717377D72600FC8A00E6B567 /* ProductListViewController.swift in Sources */,
+				71A536C72602349A0048BCAC /* LoginService.swift in Sources */,
+				717377ED26010A2400E6B567 /* UIImageView+Extensions.swift in Sources */,
 				7173776E2600F36200E6B567 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,11 +843,15 @@
 		};
 		717377932600F36500E6B567 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C850C94494B114C34E2B7E2 /* Pods-avana.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = avana/avana.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQEDLFR82W;
 				INFOPLIST_FILE = avana/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,17 +859,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.apit.avana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		717377942600F36500E6B567 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA11209B995158FAB1C8EFE2 /* Pods-avana.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = avana/avana.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQEDLFR82W;
 				INFOPLIST_FILE = avana/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,12 +881,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.apit.avana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		717377962600F36500E6B567 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1980D1C950AFD9F7FC2C6628 /* Pods-avanaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +909,7 @@
 		};
 		717377972600F36500E6B567 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4404564F13872F600510B382 /* Pods-avanaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +931,7 @@
 		};
 		717377992600F36500E6B567 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B630CAC885886C7F03A25CAE /* Pods-avana-avanaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +951,7 @@
 		};
 		7173779A2600F36500E6B567 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E539E492CB85BC1732EEB7 /* Pods-avana-avanaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="avana" customModuleProvider="target">
+            <connections>
+                <outlet property="loginFacebookButton" destination="etJ-2h-BS0" id="3PG-23-c9q"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etJ-2h-BS0">
+                    <rect key="frame" x="20" y="832" width="388" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBlueColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ySZ-tq-vb0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <state key="normal" title="Continue with Facebook">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNH-yR-NoZ">
+                    <rect key="frame" x="20" y="44" width="39" height="30"/>
+                    <state key="normal" title="Close"/>
+                    <connections>
+                        <action selector="closeButtonPressed:" destination="-1" eventType="touchUpInside" id="7Uq-kD-6sZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You need to login before checkout." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63h-MX-g9S">
+                    <rect key="frame" x="20" y="453" width="388" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="7ZL-qg-cAi"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="7ZL-qg-cAi" firstAttribute="bottom" secondItem="etJ-2h-BS0" secondAttribute="bottom" constant="10" id="0jf-ju-vXw"/>
+                <constraint firstItem="7ZL-qg-cAi" firstAttribute="trailing" secondItem="63h-MX-g9S" secondAttribute="trailing" constant="20" id="4C1-5b-ctN"/>
+                <constraint firstItem="63h-MX-g9S" firstAttribute="leading" secondItem="7ZL-qg-cAi" secondAttribute="leading" constant="20" id="CaS-Zl-nsf"/>
+                <constraint firstItem="7ZL-qg-cAi" firstAttribute="trailing" secondItem="etJ-2h-BS0" secondAttribute="trailing" constant="20" id="GFr-Or-DdO"/>
+                <constraint firstItem="xNH-yR-NoZ" firstAttribute="top" secondItem="7ZL-qg-cAi" secondAttribute="top" id="Qeg-np-MCe"/>
+                <constraint firstItem="63h-MX-g9S" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="RRM-2p-hlA"/>
+                <constraint firstItem="etJ-2h-BS0" firstAttribute="leading" secondItem="7ZL-qg-cAi" secondAttribute="leading" constant="20" id="b6o-Lx-boE"/>
+                <constraint firstItem="xNH-yR-NoZ" firstAttribute="leading" secondItem="7ZL-qg-cAi" secondAttribute="leading" constant="20" id="mnH-RO-1r8"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="61"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
