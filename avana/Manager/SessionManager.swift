@@ -28,8 +28,8 @@ class SessionManager: NSObject {
     }
 
     static var validSession: Bool {
-        if let session = currentSession, let token = session.token {
-            return !token.isEmpty
+        if let session = currentSession, let name = session.name {
+            return !name.isEmpty
         }
         return false
     }
