@@ -36,6 +36,13 @@ class ProductListViewController: UIViewController {
         setupViews()
         setupLayout()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let name = SessionManager.validSession ? SessionManager.currentSession?.name : "Login"
+        let profile = UIBarButtonItem(title: name, style: .plain, target: self, action: #selector(openLogin))
+        navigationItem.setRightBarButton(profile, animated: false)
+    }
 }
 
 // MARK: Setup
@@ -87,6 +94,10 @@ private extension ProductListViewController {
             page = 1
         }
         viewModel.getProduct(page: page)
+    }
+    
+    @objc func openLogin() {
+        router.navigateToLogin()
     }
 }
 

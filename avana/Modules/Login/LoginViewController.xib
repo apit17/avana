@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="avana" customModuleProvider="target">
             <connections>
+                <outlet property="greetLabel" destination="63h-MX-g9S" id="330-P1-jEH"/>
                 <outlet property="loginFacebookButton" destination="etJ-2h-BS0" id="3PG-23-c9q"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

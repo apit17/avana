@@ -65,10 +65,6 @@ private extension ProductDetailViewController {
     }
 
     func handleCheckout() {
-        if SessionManager.validSession {
-            router.navigateToCheckout(product: viewModel.product)
-        } else {
-            router.navigateToLogin()
-        }
+        router.navigateToCheckout(product: viewModel.product)
     }
 }

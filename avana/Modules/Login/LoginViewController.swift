@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
     fileprivate let disposeBag = DisposeBag()
 
     @IBOutlet weak var loginFacebookButton: UIButton!
+    @IBOutlet weak var greetLabel: UILabel!
     init(withViewModel viewModel: LoginViewModel, router: LoginRouter) {
         self.viewModel = viewModel
         self.router = router
@@ -43,7 +44,9 @@ class LoginViewController: UIViewController {
 private extension LoginViewController {
 
     func setupViews() {
-
+        let greet = SessionManager.validSession ? "Hi, \(SessionManager.currentSession?.name ?? "There")": "You need to login first"
+        greetLabel.text = greet
+        loginFacebookButton.isHidden = SessionManager.validSession
     }
 
     func setupLayout() {

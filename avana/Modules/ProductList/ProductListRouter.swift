@@ -14,4 +14,11 @@ class ProductListRouter {
         let vc = ProductDetailBuilder.viewController(viewModel: viewModel)
         viewController?.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    func navigateToLogin() {
+        let vc = LoginBuilder.viewController()
+        vc.modalPresentationStyle = .overCurrentContext
+        vc.modalTransitionStyle = .crossDissolve
+        viewController?.present(vc, animated: true, completion: nil)
+    }
 }
